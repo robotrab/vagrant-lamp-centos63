@@ -7,8 +7,7 @@ class phpdevweb{
 	include misc
 	include httpd
 	#include phpdev
-	include db
-	include php	
-	include phpmyadmin
+	#include db
+	include php
 }
 include phpdevweb
