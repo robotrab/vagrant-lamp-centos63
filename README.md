@@ -15,12 +15,10 @@ This installs:
 
 	Download from [http://downloads.vagrantup.com](http://downloads.vagrantup.com/).
 
-vagrant plugin install vagrant-vbguest
-
 3. Clone this repo into a local folder
 
 	```bash
-$ git clone git@github.com:miccheng/vagrant-lamp-centos63.git phpdev
+$ git clone git@github.com:robotrab/vagrant-lamp-centos63.git phpdev
 ```
 
 4. Start Vagrant
@@ -30,11 +28,17 @@ $ git clone git@github.com:miccheng/vagrant-lamp-centos63.git phpdev
 	```bash
 $ vagrant up
 ```
+  If you get an error about mounting drives, try updating the virtualbox guest additions:
+
+  ```bash
+$ vagrant plugin install vagrant-vbguest
+```
 
 ## Usage
 
-Update your host operating system's `/etc/hosts` file with the entries from the file
-On Windows usually located in `C:\Windows\System32\drivers\etc`
+Update your host operating system's `/etc/hosts` file with the entries from the file.
+On Windows the hosts file is usually located in `C:\Windows\System32\drivers\etc`
+
 domain_hosts.txt
 
 
@@ -42,6 +46,19 @@ To login into the VM type
 ```bash
 $ vagrant ssh
 ```
+On Windows you will need to use a program such as putty to access ssh.
+
+## PuTTY config (Windows)
+Download from [http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html).
+I recommend downloading PuTTY and PuTTYgen. This will allow you to create a private key so you do not need a password to login.
+First open PuTTYgen. Then select Conversions and Import Key. The default location for the Vagrant key is located in:
+
+C:\\Users\\*UserName*\\.vagrant.d\\insecure_private_key
+
+Then hit save private key and save it anywhere. Then you can close out of PuTTYgen and open up PuTTY.
+
+Create a new Session, save it whatever you want. For the host name use 127.0.0.1 and port number 2222. Then go to Connection SSH Auth. At the very bottom is a browse
+button where you can add the new .ppk file you just created previously. Then save your session.
 
 To stop the VM:
 ```bash
@@ -57,6 +74,13 @@ To destroy the VM:
 ```bash
 $ vagrant destroy
 ```
+
+## Creating Vhosts
+
+vhosts.rb will read in domains.json and create a vhost file for each domain listed according
+to the template.conf.erb file. It will also create the associated folder in the clients folder.
+
+When adding a new site, you should add an entry to domains.json and an entry to domains_host.txt. Then rerun vhosts.rb.
 
 ## Attribution
 
