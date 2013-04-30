@@ -551,6 +551,10 @@
         {
         "folder_name": "williamsknife_html",
         "full_domain": "williamsknife.com.dev"
+        },
+        {
+        "folder_name": "gittest",
+        "full_domain": "gittest.ifg.net.dev"
         }
     ]
 }
