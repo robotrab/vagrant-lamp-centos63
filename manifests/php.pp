@@ -77,17 +77,17 @@ class php {
     ensure  => present,
   }
 
-  exec { "xhprof":
-    command => "/usr/bin/pecl install xhprof-beta",
-    creates => "/usr/lib64/php/modules/xhprof.so",
-    require => Exec["grab-epel"]
-  }
+  #exec { "xhprof":
+  #  command => "/usr/bin/pecl install xhprof-beta",
+  #  creates => "/usr/lib64/php/modules/xhprof.so",
+  #  require => Exec["grab-epel"]
+  #}
 
-  file { "/etc/php.d/xhprof.ini":
-    replace => true,
-    ensure  => present,
-    source  => "/vagrant/files/php.d/xhprof.ini",
-  }
+  #file { "/etc/php.d/xhprof.ini":
+  #  replace => true,
+  #  ensure  => present,
+  #  source  => "/vagrant/files/php.d/xhprof.ini",
+  #}
 
   file { "/etc/php.ini":
     replace => true,
