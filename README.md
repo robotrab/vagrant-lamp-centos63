@@ -78,9 +78,9 @@ button where you can add the new .ppk file you just created previously. Then sav
 ## Creating Vhosts
 
 vhosts.rb will read in domains.json and create a vhost file for each domain listed according
-to the template.conf.erb file. It will also create the associated folder in the clients folder.
+to the template.conf.erb file. It will also create the associated folder in the clients folder and update the hosts file.
 
-When adding a new site, you should add an entry to domains.json and an entry to domains_host_file.txt. Then rerun vhosts.rb.
+When adding a new site, you should add an entry to domains.json. Then rerun vhosts.rb.
 
 ## Attribution
 

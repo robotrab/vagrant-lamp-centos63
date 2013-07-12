@@ -18,3 +18,9 @@ parsed["domains"].each do |domain|
   FileUtils.mkdir "./clients/#{folder_name}" unless File.directory?("./clients/#{folder_name}")
 end
 
+File.open("domains_hosts_file.txt", "w") do |f|
+  parsed["domains"].each do |domain|
+    f.write("192.168.56.60  " + domain["full_domain"] + "\n")
+  end
+end
+
