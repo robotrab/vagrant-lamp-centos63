@@ -521,7 +521,7 @@
         "full_domain": "seawatchresort.com.dev"
         },
         {
-        "folder_name": "sites_vacationmyrtlebeach_html",
+        "folder_name": "vacationmyrtlebeach_html",
         "full_domain": "vacationmyrtlebeach.com.dev"
         },
         {
@@ -531,10 +531,6 @@
         {
         "folder_name": "thesouthwind_html",
         "full_domain": "thesouthwind.com.dev"
-        },
-        {
-        "folder_name": "vmbproof_html",
-        "full_domain": "vacationmyrtlebeach.ifg.net.dev"
         },
         {
         "folder_name": "ap_southerntide_html",
@@ -555,6 +551,10 @@
         {
         "folder_name": "gittest",
         "full_domain": "gittest.ifg.net.dev"
+        },
+        {
+        "folder_name": "myrtlebeach_net_html",
+        "full_domain": "myrtlebeach.net.dev"
         }
     ]
 }
