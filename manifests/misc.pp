@@ -23,4 +23,8 @@ class misc {
     ensure  => present,
   }
 
+  package { "git.x86_64":
+    ensure  => present,
+  }
+
 }
