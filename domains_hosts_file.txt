@@ -137,3 +137,4 @@
 192.168.56.60  williamsknife.com.dev
 192.168.56.60  gittest.ifg.net.dev
 192.168.56.60  myrtlebeach.net.dev
+192.168.56.60  repowersouth.com.dev

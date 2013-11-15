@@ -1,35 +1,7 @@
 # Puppet manifest for my PHP dev machine
 Exec { path => [ "/bin/", "/sbin/" , "/usr/bin/", "/usr/sbin/" ] }
-class phpdevweb{
-
-    package { "iptables":
-        ensure => present;
-    }
-
-    service { "iptables":
-        require => Package["iptables"],
-
-        hasstatus => true,
-        status => "true",
-
-        # hasrestart => false,
-    }
-
-    file { "/etc/sysconfig/iptables":
-        owner   => "root",
-        group   => "root",
-        mode    => 600,
-        replace => true,
-        ensure  => present,
-        # source  => "puppet:///files/iptables.txt",
-        source  => "/vagrant/files/iptables.txt",
-        # content => template("puppet:///templates/iptables.txt"),
-        require => Package["iptables"],
-
-        notify  => Service["iptables"],
-        ;
-    }
-
+class phpdevweb
+{
     File {
         owner   => "root",
         group   => "root",
@@ -43,17 +15,44 @@ class phpdevweb{
         ensure => present
     }
 
+    #exec { 'yum-update':
+    #    command => '/usr/bin/yum -y update',
+    #    require => Exec["grap-epel"]
+    #}
     exec { "grap-epel":
         command => "/bin/rpm -Uvh http://download.fedoraproject.org/pub/epel/6/i386/epel-release-6-8.noarch.rpm",
         creates => "/etc/yum.repos.d/epel.repo",
         alias   => "grab-epel",
     }
 
+    package { "iptables":
+        ensure => present;
+    }
+
+    service { "iptables":
+        require => Package["iptables"],
+        hasstatus => true,
+        status => "true",
+        ensure => stopped
+        # hasrestart => false,
+    }
+
+    #file { "/etc/sysconfig/iptables":
+    #    owner   => "root",
+    #    group   => "root",
+    #    mode    => 600,
+    #    replace => true,
+    #    ensure  => present,
+    #    source  => "/vagrant/files/iptables.txt",
+    #    require => Package["iptables"],
+    #    notify  => Service["iptables"],
+    #}
+
     package { "vim-enhanced":
         ensure  => present,
     }
 
-    package { "git.x86_64":
+    package { "git":
         ensure  => present,
     }
 
@@ -82,12 +81,21 @@ class phpdevweb{
         source  => "/vagrant/files/httpd/conf.d/vhost.conf",
     }
 
+    file { "/etc/httpd/vhosts_ssl":
+        ensure => "directory",
+    }
+
     file { "/etc/httpd/vhosts":
         replace => true,
         ensure  => present,
         source  => "/vagrant/files/httpd/vhosts",
         recurse => true,
     }
+
+    #class { 'mysql': }
+    #class { 'mysql::server':
+    #    config_hash => { 'root_password' => 'media1' }
+    #}
 
     package { "php":
         ensure  => present,
@@ -163,15 +171,5 @@ class phpdevweb{
         ensure  => present,
         source  => "/vagrant/files/php.ini",
     }
-
-
-	#require yum
-	#include iptables
-	#include rpmforge
-	#include misc
-	#include httpd
-	#include phpdev
-	#include db
-	#include php
 }
 include phpdevweb

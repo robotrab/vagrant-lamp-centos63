@@ -555,6 +555,10 @@
         {
         "folder_name": "myrtlebeach_net_html",
         "full_domain": "myrtlebeach.net.dev"
+        },
+        {
+        "folder_name": "repowersouth_html",
+        "full_domain": "repowersouth.com.dev"
         }
     ]
 }
