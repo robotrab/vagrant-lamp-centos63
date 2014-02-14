@@ -1,5 +1,5 @@
 <VirtualHost *:80>
-        DocumentRoot /mnt/nas/clients/<%= folder_name %>/
+        DocumentRoot /mnt/nas/local/<%= folder_name %>/
         ServerName <%= full_domain %>
         AccessFileName .htaccess
         ServerSignature On
@@ -8,9 +8,9 @@
         ErrorLog /var/log/httpd/<%= full_domain %>-error_log
         CustomLog /var/log/httpd/access_log combined
 
-        Alias / "/mnt/nas/clients/<%= folder_name %>/"
+        Alias / "/mnt/nas/local/<%= folder_name %>/"
 
-        <Directory "/mnt/nas/clients/<%= folder_name %>/">
+        <Directory "/mnt/nas/local/<%= folder_name %>/">
                 allow from all
                 Options -Indexes
                 AllowOverride All

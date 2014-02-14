@@ -15,10 +15,6 @@ class phpdevweb
         ensure => present
     }
 
-    #exec { 'yum-update':
-    #    command => '/usr/bin/yum -y update',
-    #    require => Exec["grap-epel"]
-    #}
     exec { "grap-epel":
         command => "/bin/rpm -Uvh http://download.fedoraproject.org/pub/epel/6/i386/epel-release-6-8.noarch.rpm",
         creates => "/etc/yum.repos.d/epel.repo",
@@ -30,9 +26,9 @@ class phpdevweb
     }
 
     service { "iptables":
-        require => Package["iptables"],
+        #require => Package["iptables"],
         hasstatus => true,
-        status => "true",
+        #status => "true",
         ensure => stopped
         # hasrestart => false,
     }
