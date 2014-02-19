@@ -11,7 +11,7 @@ class phpdevweb
     }
 
     host { "mysql-fuelinteractive.edgewebhosting.net":
-        ip => "10.10.146.18",
+        ip => "10.10.146.22",
         ensure => present
     }
 
