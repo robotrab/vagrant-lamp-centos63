@@ -57,10 +57,8 @@
 192.168.56.60  api.fuelinteractive.com.dev
 192.168.56.60  app.vacationmyrtlebeach.com.dev
 192.168.56.60  beaufortsc.org.dev
-192.168.56.60  bluewaterresort.com.dev
 192.168.56.60  bobbychapmaninvitational.com.dev
 192.168.56.60  calcuttabaits.com.dev
-192.168.56.60  calcuttafishing.com.dev
 192.168.56.60  campmyrtlebeach.com.dev
 192.168.56.60  century21boling.com.dev
 192.168.56.60  socialoctaneapp.com.dev
@@ -77,11 +75,9 @@
 192.168.56.60  fuelinteractive.com.dev
 192.168.56.60  gloryfoods.com.dev
 192.168.56.60  grandstrandattorneys.com.dev
-192.168.56.60  guestdesk.com.dev
 192.168.56.60  haveanicebank.com.dev
 192.168.56.60  holidaysandssouth.com.dev
 192.168.56.60  htcadsales.com.dev
-192.168.56.60  htcinc.net.dev
 192.168.56.60  igaguy.com.dev
 192.168.56.60  inmanmills.com.dev
 192.168.56.60  inmansod.com.dev
@@ -139,3 +135,11 @@
 192.168.56.60  myrtlebeach.net.dev
 192.168.56.60  repowersouth.com.dev
 192.168.56.60  myrtlebeachcondorentals.com.dev
+192.168.56.60  guestmate.com.dev
+192.168.56.60  thebrandonagency.com.dev
+192.168.56.60  golfholiday.com.dev
+192.168.56.60  tilghmanresort.com.dev
+192.168.56.60  teeuptomorrow.com.dev
+192.168.56.60  reviews.myrtlebeach.com.dev
+192.168.56.60  northmyrtlebeachhotels.com.dev
+192.168.56.60  explorenorthmyrtlebeach.com.dev

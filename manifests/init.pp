@@ -26,23 +26,9 @@ class phpdevweb
     }
 
     service { "iptables":
-        #require => Package["iptables"],
         hasstatus => true,
-        #status => "true",
         ensure => stopped
-        # hasrestart => false,
     }
-
-    #file { "/etc/sysconfig/iptables":
-    #    owner   => "root",
-    #    group   => "root",
-    #    mode    => 600,
-    #    replace => true,
-    #    ensure  => present,
-    #    source  => "/vagrant/files/iptables.txt",
-    #    require => Package["iptables"],
-    #    notify  => Service["iptables"],
-    #}
 
     package { "vim-enhanced":
         ensure  => present,
@@ -88,10 +74,35 @@ class phpdevweb
         recurse => true,
     }
 
-    #class { 'mysql': }
-    #class { 'mysql::server':
-    #    config_hash => { 'root_password' => 'media1' }
-    #}
+    $mysql_password = "fueldev"
+
+    package { "mysql-server": ensure => installed }
+    package { "mysql": ensure => installed }
+
+    service { "mysqld":
+        enable => true,
+        ensure => running,
+        require => Package["mysql-server"]
+    }
+
+    file { "/var/lib/mysql/my.cnf":
+        owner => "mysql", group => "mysql",
+        source => "/vagrant/files/mysql/my.cnf",
+        notify => Service["mysqld"],
+        require => Package["mysql-server"]
+    }
+
+    file { "/etc/my.cnf":
+        require => File["/var/lib/mysql/my.cnf"],
+        ensure => "/var/lib/mysql/my.cnf"
+    }
+
+    exec { "set-mysql-password":
+        unless => "mysqladmin -uroot -p$mysql_password status",
+        path => ["/bin", "/usr/bin"],
+        command => "mysqladmin -uroot password $mysql_password",
+        require => Service["mysqld"]
+    }
 
     package { "php":
         ensure  => present,

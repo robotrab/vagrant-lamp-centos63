@@ -14,11 +14,13 @@
         },
         {
         "folder_name": "coursesites_mbn_html",
-        "full_domain": "coursesites.mbn.com.dev"
+        "full_domain": "coursesites.mbn.com.dev",
+        "database": "Local-CourseSites"
         },
         {
         "folder_name": "coursesites_myrtlebeachgolf_html",
-        "full_domain": "coursesites.myrtlebeachgolf.com.dev"
+        "full_domain": "coursesites.myrtlebeachgolf.com.dev",
+        "database": "Local-MbGolfCourseSites"
         },
         {
         "folder_name": "farmsteadgolflinks_html",
@@ -42,11 +44,13 @@
         },
         {
         "folder_name": "mbga_html",
-        "full_domain": "mbga.com.dev"
+        "full_domain": "mbga.com.dev",
+        "database": "Local-Mbga"
         },
         {
         "folder_name": "mbn_html",
-        "full_domain": "mbn.com.dev"
+        "full_domain": "mbn.com.dev",
+        "database": "Local-MBN"
         },
         {
         "folder_name": "meadowlandsgolfclub_html",
@@ -54,7 +58,8 @@
         },
         {
         "folder_name": "myrtlebeachgolf_html",
-        "full_domain": "myrtlebeachgolf.com.dev"
+        "full_domain": "myrtlebeachgolf.com.dev",
+        "database": "Local-MbGolf"
         },
         {
         "folder_name": "myrtlebeachgolfhalloffame_html",
@@ -62,11 +67,13 @@
         },
         {
         "folder_name": "myrtlebeachgolftrips_html",
-        "full_domain": "myrtlebeachgolftrips.com.dev"
+        "full_domain": "myrtlebeachgolftrips.com.dev",
+        "database": "Local-MbGolfTrips"
         },
         {
         "folder_name": "myrtlebeachhotels_html",
-        "full_domain": "myrtlebeachhotels.com.dev"
+        "full_domain": "myrtlebeachhotels.com.dev",
+        "database": "Local-MbHotels"
         },
         {
         "folder_name": "myrtlebeachnational_html",
@@ -214,7 +221,8 @@
         },
         {
         "folder_name": "brmglobal_html",
-        "full_domain": "sites.brittainresortmanagement.com.dev"
+        "full_domain": "sites.brittainresortmanagement.com.dev",
+        "database": "Local-BrmGlobal"
         },
         {
         "folder_name": "thesuitesofmarketcommon_html",
@@ -230,35 +238,33 @@
         },
         {
         "folder_name": "app_vacationmyrtlebeach_html",
-        "full_domain": "app.vacationmyrtlebeach.com.dev"
+        "full_domain": "app.vacationmyrtlebeach.com.dev",
+        "database": "Local-AppVMB"
         },
         {
         "folder_name": "beaufortsc_html",
-        "full_domain": "beaufortsc.org.dev"
-        },
-        {
-        "folder_name": "bluewaterresort_html",
-        "full_domain": "bluewaterresort.com.dev"
+        "full_domain": "beaufortsc.org.dev",
+        "database": "Local-BeaufortSC"
         },
         {
         "folder_name": "bobbychapmaninvitational_html",
-        "full_domain": "bobbychapmaninvitational.com.dev"
+        "full_domain": "bobbychapmaninvitational.com.dev",
+        "database": "Local-BobbyChapman"
         },
         {
         "folder_name": "calcuttabaits_html",
-        "full_domain": "calcuttabaits.com.dev"
-        },
-        {
-        "folder_name": "calcuttafishing_html",
-        "full_domain": "calcuttafishing.com.dev"
+        "full_domain": "calcuttabaits.com.dev",
+        "database": "Local-CalcuttaBaits"
         },
         {
         "folder_name": "campmyrtlebeach_html",
-        "full_domain": "campmyrtlebeach.com.dev"
+        "full_domain": "campmyrtlebeach.com.dev",
+        "database": "Local-CampMyrtleBeach"
         },
         {
         "folder_name": "century21boling_html",
-        "full_domain": "century21boling.com.dev"
+        "full_domain": "century21boling.com.dev",
+        "database": "Local-Century21Boling"
         },
         {
         "folder_name": "contests_fuelinteractive_html",
@@ -266,7 +272,8 @@
         },
         {
         "folder_name": "conwaytigertouchdownclub_html",
-        "full_domain": "conwaytigertouchdownclub.com.dev"
+        "full_domain": "conwaytigertouchdownclub.com.dev",
+        "database": "Local-ConwayTiger"
         },
         {
         "folder_name": "coralbeachmyrtlebeachresort_html",
@@ -274,7 +281,8 @@
         },
         {
         "folder_name": "crhealthcare_html",
-        "full_domain": "crhealthcare.org.dev"
+        "full_domain": "crhealthcare.org.dev",
+        "database": "Local-ColumbusRegional"
         },
         {
         "folder_name": "craft_ifg_html",
@@ -282,19 +290,23 @@
         },
         {
         "folder_name": "driwood_html",
-        "full_domain": "driwood.com.dev"
+        "full_domain": "driwood.com.dev",
+        "database": "Local-Driwood"
         },
         {
         "folder_name": "eebase_html",
-        "full_domain": "ee2.ifg.net.dev"
+        "full_domain": "ee2.ifg.net.dev",
+        "database": "Local-EEbase"
         },
         {
         "folder_name": "elitelighting_html",
-        "full_domain": "elitelighting.com.dev"
+        "full_domain": "elitelighting.com.dev",
+        "database": "Local-EliteLighting"
         },
         {
         "folder_name": "elmsdigestivesc_html",
-        "full_domain": "elmsdigestivesc.com.dev"
+        "full_domain": "elmsdigestivesc.com.dev",
+        "database": "Local-ElmsDigestivesc"
         },
         {
         "folder_name": "filib_html",
@@ -302,51 +314,53 @@
         },
         {
         "folder_name": "ftcnow_html",
-        "full_domain": "ftcnow.com.dev"
+        "full_domain": "ftcnow.com.dev",
+        "database": "Local-FtcNow"
         },
         {
         "folder_name": "fuelinteractive_html",
-        "full_domain": "fuelinteractive.com.dev"
+        "full_domain": "fuelinteractive.com.dev",
+        "database": "Local-Fuel"
         },
         {
         "folder_name": "gloryfoods_html",
-        "full_domain": "gloryfoods.com.dev"
+        "full_domain": "gloryfoods.com.dev",
+        "database": "Local-GloryFoods"
         },
         {
         "folder_name": "grandstrandattorneys_html",
-        "full_domain": "grandstrandattorneys.com.dev"
-        },
-        {
-        "folder_name": "guestdesk_html",
-        "full_domain": "guestdesk.com.dev"
+        "full_domain": "grandstrandattorneys.com.dev",
+        "database": "Local-GrandStrand"
         },
         {
         "folder_name": "haveanicebank_html",
-        "full_domain": "haveanicebank.com.dev"
+        "full_domain": "haveanicebank.com.dev",
+        "database": "Local-HaveaNiceBank"
         },
         {
         "folder_name": "holidaysandssouth_html",
-        "full_domain": "holidaysandssouth.com.dev"
+        "full_domain": "holidaysandssouth.com.dev",
+        "database": "Local-HolidaySandsSouth"
         },
         {
         "folder_name": "htcadsales_html",
-        "full_domain": "htcadsales.com.dev"
-        },
-        {
-        "folder_name": "htcinc_html",
-        "full_domain": "htcinc.net.dev"
+        "full_domain": "htcadsales.com.dev",
+        "database": "Local-HtcAdsales"
         },
         {
         "folder_name": "igaguy_html",
-        "full_domain": "igaguy.com.dev"
+        "full_domain": "igaguy.com.dev",
+        "database": "Local-IgaGuy"
         },
         {
         "folder_name": "inmanmills_html",
-        "full_domain": "inmanmills.com.dev"
+        "full_domain": "inmanmills.com.dev",
+        "database": "Local-InmanMills"
         },
         {
         "folder_name": "inmansod_html",
-        "full_domain": "inmansod.com.dev"
+        "full_domain": "inmansod.com.dev",
+        "database": "Local-InmanSod"
         },
         {
         "folder_name": "intellistrand_html",
@@ -370,23 +384,28 @@
         },
         {
         "folder_name": "manzerbasketball_html",
-        "full_domain": "manzerbasketball.com.dev"
+        "full_domain": "manzerbasketball.com.dev",
+        "database": "Local-ManzerBasketball"
         },
         {
         "folder_name": "marioncountyhfoundation_html",
-        "full_domain": "marioncountyhfoundation.org.dev"
+        "full_domain": "marioncountyhfoundation.org.dev",
+        "database": "Local-MarionCounty"
         },
         {
         "folder_name": "mymyrtlebeachresorts_html",
-        "full_domain": "mymyrtlebeachresorts.com.dev"
+        "full_domain": "mymyrtlebeachresorts.com.dev",
+        "database": "Local-MyMyrtlebeachResorts"
         },
         {
         "folder_name": "myrtlebeach-resorts_html",
-        "full_domain": "myrtlebeach-resorts.com.dev"
+        "full_domain": "myrtlebeach-resorts.com.dev",
+        "database": "Local-MyrtleBeachResorts"
         },
         {
         "folder_name": "myrtlebeachgolfpackagers_html",
-        "full_domain": "myrtlebeachgolfpackagers.com.dev"
+        "full_domain": "myrtlebeachgolfpackagers.com.dev",
+        "database": "Local-Mbgp"
         },
         {
         "folder_name": "holidaypavilionmyrtlebeachresort_html",
@@ -394,11 +413,13 @@
         },
         {
         "folder_name": "myrtlebeachteetimesnow_html",
-        "full_domain": "myrtlebeachteetimesnow.com.dev"
+        "full_domain": "myrtlebeachteetimesnow.com.dev",
+        "database": "Local-TeeTimes"
         },
         {
         "folder_name": "newsouthdigital_html",
-        "full_domain": "newsouthdigital.com.dev"
+        "full_domain": "newsouthdigital.com.dev",
+        "database": "Local-NewSouth"
         },
         {
         "folder_name": "promotions_wilmingtonandbeaches_html",
@@ -414,19 +435,23 @@
         },
         {
         "folder_name": "sites_capefearcoast_html",
-        "full_domain": "wilmingtonandbeaches.com.dev"
+        "full_domain": "wilmingtonandbeaches.com.dev",
+        "database": "Local-CapeFear"
         },
         {
         "folder_name": "tammyerwinphotography_html",
-        "full_domain": "tammyerwinphotography.com.dev"
+        "full_domain": "tammyerwinphotography.com.dev",
+        "database": "Local-TammyErwin"
         },
         {
         "folder_name": "theplantationshutterco_html",
-        "full_domain": "theplantationshutterco.com.dev"
+        "full_domain": "theplantationshutterco.com.dev",
+        "database": "Local-PlantationShutter"
         },
         {
         "folder_name": "virginiagolfvacations_html",
-        "full_domain": "virginiagolfvacations.com.dev"
+        "full_domain": "virginiagolfvacations.com.dev",
+        "database": "Local-GolfVacations"
         },
         {
         "folder_name": "visitcarolinabeachnc_html",
@@ -442,23 +467,28 @@
         },
         {
         "folder_name": "wiplconference_html",
-        "full_domain": "wiplconference.com.dev"
+        "full_domain": "wiplconference.com.dev",
+        "database": "Local-WiplConference"
         },
         {
         "folder_name": "myrtlebeach_html",
-        "full_domain": "myrtlebeach.com.dev"
+        "full_domain": "myrtlebeach.com.dev",
+        "database": "Local-MyrtleBeach"
         },
         {
         "folder_name": "myrtlebeach_ifg_html",
-        "full_domain": "myrtlebeach.ifg.net.dev"
+        "full_domain": "myrtlebeach.ifg.net.dev",
+        "database": "Local-MbIFG"
         },
         {
         "folder_name": "oldmb_ifg_html",
-        "full_domain": "oldmb.ifg.net.dev"
+        "full_domain": "oldmb.ifg.net.dev",
+        "database": "Local-Oldmb"
         },
         {
         "folder_name": "pawleysisland_html",
-        "full_domain": "pawleysisland.com.dev"
+        "full_domain": "pawleysisland.com.dev",
+        "database": "Local-Pawleys"
         },
         {
         "folder_name": "beachcolony_html",
@@ -522,7 +552,8 @@
         },
         {
         "folder_name": "vacationmyrtlebeach_html",
-        "full_domain": "vacationmyrtlebeach.com.dev"
+        "full_domain": "vacationmyrtlebeach.com.dev",
+        "database": "Local-vmbnew"
         },
         {
         "folder_name": "thecaravelle_html",
@@ -534,19 +565,23 @@
         },
         {
         "folder_name": "ap_southerntide_html",
-        "full_domain": "ap.southerntide.com.dev"
+        "full_domain": "ap.southerntide.com.dev",
+        "database": "Local-APST"
         },
         {
         "folder_name": "oxfordgolf_html",
-        "full_domain": "oxfordgolf.com.dev"
+        "full_domain": "oxfordgolf.com.dev",
+        "database": "Local-OxfordGolf"
         },
         {
         "folder_name": "southerntide_html",
-        "full_domain": "southerntide.com.dev"
+        "full_domain": "southerntide.com.dev",
+        "database": "Local-SouthernTide"
         },
         {
         "folder_name": "williamsknife_html",
-        "full_domain": "williamsknife.com.dev"
+        "full_domain": "williamsknife.com.dev",
+        "database": "Local-WilliamsKnife"
         },
         {
         "folder_name": "gittest",
@@ -554,15 +589,58 @@
         },
         {
         "folder_name": "myrtlebeach_net_html",
-        "full_domain": "myrtlebeach.net.dev"
+        "full_domain": "myrtlebeach.net.dev",
+        "database": "Local-MyrtleBeachNet"
         },
         {
         "folder_name": "repowersouth_html",
-        "full_domain": "repowersouth.com.dev"
+        "full_domain": "repowersouth.com.dev",
+        "database": "Local-RepowerSouth"
         },
         {
         "folder_name": "myrtlebeachcondorentals_html",
-        "full_domain": "myrtlebeachcondorentals.com.dev"
+        "full_domain": "myrtlebeachcondorentals.com.dev",
+        "database": "Local-MBCondoRentals"
+        },
+        {
+        "folder_name": "guestmate_html",
+        "full_domain": "guestmate.com.dev",
+        "database": "Local-Guestmate"
+        },
+        {
+        "folder_name": "thebrandonagency_html",
+        "full_domain": "thebrandonagency.com.dev",
+        "database": "Local-TheBrandonAgency"
+        },
+        {
+        "folder_name": "golfholiday_html",
+        "full_domain": "golfholiday.com.dev",
+        "database": "Local-GolfHoliday"
+        },
+        {
+        "folder_name": "tilghmanresort_html",
+        "full_domain": "tilghmanresort.com.dev",
+        "database": "Local-TilghmanResort"
+        },
+        {
+        "folder_name": "teeuptomorrow_html",
+        "full_domain": "teeuptomorrow.com.dev",
+        "database": "Local-TeeUpTomorrow"
+        },
+        {
+        "folder_name": "reviews_myrtlebeach_html",
+        "full_domain": "reviews.myrtlebeach.com.dev",
+        "database": "Local-MBReviews"
+        },
+        {
+        "folder_name": "northmyrtlebeachhotels_html",
+        "full_domain": "northmyrtlebeachhotels.com.dev",
+        "database": "Local-NorthMBHotels"
+        },
+        {
+        "folder_name": "explorenorthmyrtlebeach_html",
+        "full_domain": "explorenorthmyrtlebeach.com.dev",
+        "database": "Local-ExploreNorthMyrtleBeach"
         }
     ]
 }
