@@ -641,6 +641,11 @@
         "folder_name": "explorenorthmyrtlebeach_html",
         "full_domain": "explorenorthmyrtlebeach.com.dev",
         "database": "Local-ExploreNorthMyrtleBeach"
+        },
+        {
+        "folder_name": "myrtlebeachgolfpassport_html",
+        "full_domain": "myrtlebeachgolfpassport.com.dev",
+        "database": "Local-MbGolfPassport"
         }
     ]
 }
