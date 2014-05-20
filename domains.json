@@ -646,6 +646,11 @@
         "folder_name": "myrtlebeachgolfpassport_html",
         "full_domain": "myrtlebeachgolfpassport.com.dev",
         "database": "Local-MbGolfPassport"
+        },
+        {
+        "folder_name": "bluewavenc_html",
+        "full_domain": "bluewavenc.net.dev",
+        "database": "Local-BluewaveNC"
         }
     ]
 }

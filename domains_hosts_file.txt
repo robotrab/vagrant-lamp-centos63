@@ -144,3 +144,4 @@
 192.168.56.60  northmyrtlebeachhotels.com.dev
 192.168.56.60  explorenorthmyrtlebeach.com.dev
 192.168.56.60  myrtlebeachgolfpassport.com.dev
+192.168.56.60  bluewavenc.net.dev
