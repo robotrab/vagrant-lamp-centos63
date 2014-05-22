@@ -62,3 +62,4 @@
 /usr/bin/mysql -uroot -pfueldev -e "create database \`Local-ExploreNorthMyrtleBeach\`; grant all on \`Local-ExploreNorthMyrtleBeach\`.* to 'fueldev'@'localhost';";
 /usr/bin/mysql -uroot -pfueldev -e "create database \`Local-MbGolfPassport\`; grant all on \`Local-MbGolfPassport\`.* to 'fueldev'@'localhost';";
 /usr/bin/mysql -uroot -pfueldev -e "create database \`Local-BluewaveNC\`; grant all on \`Local-BluewaveNC\`.* to 'fueldev'@'localhost';";
+/usr/bin/mysql -uroot -pfueldev -e "create database \`Local-AvviUsa\`; grant all on \`Local-AvviUsa\`.* to 'fueldev'@'localhost';";

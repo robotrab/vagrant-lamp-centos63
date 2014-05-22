@@ -651,6 +651,11 @@
         "folder_name": "bluewavenc_html",
         "full_domain": "bluewavenc.net.dev",
         "database": "Local-BluewaveNC"
+        },
+        {
+        "folder_name": "avviusa_html",
+        "full_domain": "avviusa.com.dev",
+        "database": "Local-AvviUsa"
         }
     ]
 }
