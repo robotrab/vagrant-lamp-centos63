@@ -661,6 +661,11 @@
         "folder_name": "mbredc_html",
         "full_domain": "mbredc.org.dev",
         "database": "Local-Mbredc"
+        },
+        {
+        "folder_name": "beachaviationservices_html",
+        "full_domain": "beachaviationservices.com.dev",
+        "database": "Local-BeachAviationServices"
         }
     ]
 }

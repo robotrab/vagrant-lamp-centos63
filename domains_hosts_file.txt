@@ -147,3 +147,4 @@
 192.168.56.60  bluewavenc.net.dev
 192.168.56.60  avviusa.com.dev
 192.168.56.60  mbredc.org.dev
+192.168.56.60  beachaviationservices.com.dev
