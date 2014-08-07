@@ -666,6 +666,11 @@
         "folder_name": "beachaviationservices_html",
         "full_domain": "beachaviationservices.com.dev",
         "database": "Local-BeachAviationServices"
+        },
+        {
+        "folder_name": "jeffdantzler_html",
+        "full_domain": "jeffdantzler.tv.dev",
+        "database": "Local-JeffDantzler"
         }
     ]
 }
