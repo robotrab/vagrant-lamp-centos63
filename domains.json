@@ -671,6 +671,11 @@
         "folder_name": "jeffdantzler_html",
         "full_domain": "jeffdantzler.tv.dev",
         "database": "Local-JeffDantzler"
+        },
+        {
+        "folder_name": "mountainloversnc_html",
+        "full_domain": "mountainloversnc.com.dev",
+        "database": "Local-MountainLoversNC"
         }
     ]
 }

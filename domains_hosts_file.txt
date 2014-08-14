@@ -1,3 +1,4 @@
+127.0.0.1       localhost
 192.168.56.60  playaberdeen.com.dev
 192.168.56.60  arcadianshores.com.dev
 192.168.56.60  blackmoor.com.dev
@@ -149,3 +150,4 @@
 192.168.56.60  mbredc.org.dev
 192.168.56.60  beachaviationservices.com.dev
 192.168.56.60  jeffdantzler.tv.dev
+192.168.56.60  mountainloversnc.com.dev
