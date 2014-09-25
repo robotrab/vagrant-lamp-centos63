@@ -22,6 +22,7 @@ parsed["domains"].each do |domain|
 end
 
 File.open("domains_hosts_file.txt", "w") do |f|
+  f.write("127.0.0.1       localhost\n")
   parsed["domains"].each do |domain|
     f.write("192.168.56.60  " + domain["full_domain"] + "\n")
   end
@@ -30,7 +31,7 @@ end
 File.open("./files/mysql/create_dbs.sh", "w") do |f|
   parsed["domains"].each do |domain|
     unless domain["database"].nil?
-        f.write("/usr/bin/mysql -uroot -proot -e \"create database " + domain["database"] + "; grant all on " + domain["database"] + ".* to " + _DBUSER + "@localhost identified by '" + _DBPASS + "';\"" + "\n")
+        f.write("/usr/bin/mysql -uroot -pfueldev -e \"create database \\`" + domain["database"] + "\\`; grant all on \\`" + domain["database"] + "\\`.* to '" + _DBUSER + "'@'localhost';\";\n")
     end
   end
 end

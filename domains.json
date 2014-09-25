@@ -681,6 +681,11 @@
         "folder_name": "guestexpressapp_html",
         "full_domain": "guestexpressapp.com.dev",
         "database": "Local-GuestExpress"
+        },
+        {
+        "folder_name": "acgattachments_html",
+        "full_domain": "acgattachments.com.dev",
+        "database": "Local-ACG"
         }
     ]
 }

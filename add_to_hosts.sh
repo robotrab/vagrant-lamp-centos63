@@ -1,0 +1,1 @@
+cat domains_hosts_file.txt > /private/etc/hosts

@@ -97,6 +97,19 @@ class phpdevweb
         ensure => "/var/lib/mysql/my.cnf"
     }
 
+    file { "/var/lib/mysql/create_dbs.sh":
+        replace => true,
+        ensure  => present,
+        source  => "/vagrant/files/mysql/create_dbs.sh",
+        require => Package["mysql-server"]
+    }
+
+    #exec { "create_dbs":
+     #   path => ["/bin", "/usr/bin"],
+     #   command => "bash /var/lib/mysql/create_dbs.sh",
+     #   require => Service["mysqld"]
+    #}
+
     exec { "set-mysql-password":
         unless => "mysqladmin -uroot -p$mysql_password status",
         path => ["/bin", "/usr/bin"],
