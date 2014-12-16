@@ -686,6 +686,11 @@
         "folder_name": "acgattachments_html",
         "full_domain": "acgattachments.com.dev",
         "database": "Local-ACG"
+        },
+        {
+        "folder_name": "wachesaweastmyrtlebeach_html",
+        "full_domain": "wachesaweastmyrtlebeach.com.dev",
+        "database": "Local-WachesawEast"
         }
     ]
 }
