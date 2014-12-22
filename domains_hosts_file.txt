@@ -153,4 +153,4 @@
 192.168.56.60  mountainloversnc.com.dev
 192.168.56.60  guestexpressapp.com.dev
 192.168.56.60  acgattachments.com.dev
-192.168.56.60  wachesaweastmyrtlebeach.com.dev
+192.168.56.60  wachesaweast.com.dev
