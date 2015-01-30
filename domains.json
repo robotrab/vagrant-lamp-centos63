@@ -691,6 +691,11 @@
         "folder_name": "wachesaweast_html",
         "full_domain": "wachesaweast.com.dev",
         "database": "Local-WachesawEast"
+        },
+        {
+        "folder_name": "myrtlebeachgroupsales_html",
+        "full_domain": "myrtlebeachgroupsales.com.dev",
+        "database": "Local-MBGroupSales"
         }
     ]
 }

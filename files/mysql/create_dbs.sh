@@ -70,3 +70,4 @@
 /usr/bin/mysql -uroot -pfueldev -e "create database \`Local-GuestExpress\`; grant all on \`Local-GuestExpress\`.* to 'fueldev'@'localhost';";
 /usr/bin/mysql -uroot -pfueldev -e "create database \`Local-ACG\`; grant all on \`Local-ACG\`.* to 'fueldev'@'localhost';";
 /usr/bin/mysql -uroot -pfueldev -e "create database \`Local-WachesawEast\`; grant all on \`Local-WachesawEast\`.* to 'fueldev'@'localhost';";
+/usr/bin/mysql -uroot -pfueldev -e "create database \`Local-MBGroupSales\`; grant all on \`Local-MBGroupSales\`.* to 'fueldev'@'localhost';";
