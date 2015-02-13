@@ -696,6 +696,11 @@
         "folder_name": "myrtlebeachgroupsales_html",
         "full_domain": "myrtlebeachgroupsales.com.dev",
         "database": "Local-MBGroupSales"
+        },
+        {
+        "folder_name": "escapadaliving_html",
+        "full_domain": "escapadaliving.com.dev",
+        "database": "Local-Escapada"
         }
     ]
 }
