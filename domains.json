@@ -701,6 +701,11 @@
         "folder_name": "escapadaliving_html",
         "full_domain": "escapadaliving.com.dev",
         "database": "Local-Escapada"
+        },
+        {
+        "folder_name": "myrtlebeachgolfholiday_html",
+        "full_domain": "myrtlebeachgolfholiday.com.dev",
+        "database": "Local-GolfHoliday"
         }
     ]
 }
