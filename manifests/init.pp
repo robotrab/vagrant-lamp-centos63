@@ -21,13 +21,14 @@ class phpdevweb
         alias   => "grab-epel",
     }
 
-    package { "iptables":
-        ensure => present;
+    service { "iptables":
+        ensure => stopped,
+        hasstatus => true,
+        status => true
     }
 
-    service { "iptables":
-        hasstatus => true,
-        ensure => stopped
+    exec { "disable_iptables":
+        command => "sudo chkconfig iptables off"
     }
 
     package { "vim-enhanced":
@@ -190,6 +191,12 @@ class phpdevweb
         replace => true,
         ensure  => present,
         source  => "/vagrant/files/php.ini",
+    }
+
+    file { "/etc/php.d/apc.ini":
+        replace => true,
+        ensure  => present,
+        source  => "/vagrant/files/php.d/apc.ini",
     }
 }
 include phpdevweb

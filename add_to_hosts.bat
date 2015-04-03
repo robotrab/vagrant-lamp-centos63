@@ -1,1 +1,1 @@
-type domains_hosts_file.txt > C:\Windows\System32\drivers\etc\hosts
+type domains_hosts_file.txt > %WINDIR%\System32\drivers\etc\hosts
