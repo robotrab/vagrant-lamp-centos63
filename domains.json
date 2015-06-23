@@ -706,6 +706,11 @@
         "folder_name": "myrtlebeachgolfholiday_html",
         "full_domain": "myrtlebeachgolfholiday.com.dev",
         "database": "Local-GolfHoliday"
+        },
+        {
+        "folder_name": "thestrandmyrtlebeach_html",
+        "full_domain": "thestrandmyrtlebeach.com.dev",
+        "database": "Local-StrandMyrtleBeach"
         }
     ]
 }
