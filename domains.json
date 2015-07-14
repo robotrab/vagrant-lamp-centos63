@@ -711,6 +711,16 @@
         "folder_name": "thestrandmyrtlebeach_html",
         "full_domain": "thestrandmyrtlebeach.com.dev",
         "database": "Local-StrandMyrtleBeach"
+        },
+        {
+        "folder_name": "bellamylaw_html",
+        "full_domain": "bellamylaw.com.dev",
+        "database": "Local-BellamyLaw"
+        },
+        {
+        "folder_name": "hbspringsinsurance_html",
+        "full_domain": "hbspringsinsurance.com.dev",
+        "database": "Local-HbSpringsInsurance"
         }
     ]
 }
