@@ -160,3 +160,4 @@
 192.168.56.60  thestrandmyrtlebeach.com.dev
 192.168.56.60  bellamylaw.com.dev
 192.168.56.60  hbspringsinsurance.com.dev
+192.168.56.60  e3-studio.com.dev

@@ -721,6 +721,11 @@
         "folder_name": "hbspringsinsurance_html",
         "full_domain": "hbspringsinsurance.com.dev",
         "database": "Local-HbSpringsInsurance"
+        },
+        {
+        "folder_name": "e3-studio_html",
+        "full_domain": "e3-studio.com.dev",
+        "database": "Local-E3Studio"
         }
     ]
 }
