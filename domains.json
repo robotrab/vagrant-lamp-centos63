@@ -726,6 +726,11 @@
         "folder_name": "e3-studio_html",
         "full_domain": "e3-studio.com.dev",
         "database": "Local-E3Studio"
+        },
+        {
+        "folder_name": "amazingkitchen_html",
+        "full_domain": "amazingkitchen.com.dev",
+        "database": "Local-AmazingKitchen"
         }
     ]
 }
